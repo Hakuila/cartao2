@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@nestjs/config": "^4.0.2",
+    "@nestjs/mapped-types": "*",
     "@prisma/client": "^7.0.1",
     "bcrypt": "^6.0.0",
     "jsonwebtoken": "^9.0.2"
@@ -8,6 +9,7 @@
   "devDependencies": {
     "@nestjs/testing": "^11.1.9",
     "@types/jest": "^30.0.0",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^24.10.1",
     "jest": "^30.2.0",
     "prisma": "^7.0.1",
